@@ -1,0 +1,49 @@
+<!--
+    position::
+    relative Example
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position:relative Example</title>
+</head>
+<style>
+    div{
+        color: white; 
+        font-family: 'Comic Sans MS';
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        /* display: inline; */
+    }
+    .div1{
+        background-color: tomato;
+
+    }
+    #div2{
+        background-color: rgb(86, 27, 206);
+        position: relative;
+        left: 20px;
+        bottom: 20px;
+    }
+    #div3{
+        background-color: rgb(28, 121, 160);
+    }
+    .div4{
+        background-color: rgb(99, 12, 91);
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+</style>
+<body>
+    <div class="div1">One</div>
+    <div id="div2">Two</div>
+    <div id="div3">Three</div>
+    <div class="div4">Four</div>
+</body>
+</html>
